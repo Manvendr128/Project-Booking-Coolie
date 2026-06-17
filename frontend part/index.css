@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main{
+  display: flex;
+  background-color: bisque;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.nav-links{
+  display: flex;
+  font-weight: bold;
+  gap:45px;
+  margin: 40px 0px 0px 0px;
+}
+.nav-links a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+.coolie-image{
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+}
+.auth-buttons{
+  display: flex;
+  font-weight: bold;
+  /* border: 2px solid black; */
+  /* padding: 20px; */
+  /* gap:45px; */
+  
+  margin: 40px 0px 0px 80px;
+}
+.auth-buttons a{
+  text-decoration: none;
+}
